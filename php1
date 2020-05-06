@@ -1,0 +1,35 @@
+<!-- MADE BY CHETAN KHANNA -->
+<!-- ROLL NUMBER : 2018CSC10143 -->
+<!-- SEM IV -->
+
+Write the names and use of any 5 Date functions in PHP.
+
+1. date()
+
+Syntax : date(format, timestamp)
+
+The date() function formats a local date and time, and returns the formatted date string.
+
+2. date_modify() 
+
+Syntax : date_modify(object, modify)
+
+The date_modify() function modifies the timestamp.
+
+3. date_sun_info()
+
+Syntax : date_sun_info(timestamp, latitude, longitude)
+
+The date_sun_info() function returns an array containing information about sunset/sunrise and twilight begin/end, for a specified day and location.
+
+4. date_diff()
+
+Syntax : date_diff(datetime1, datetime2, absolute)
+
+The date_diff() function returns the difference between two DateTime objects.
+
+5. date_offset_get()
+
+Syntax : date_offset_get(object)
+
+The date_offset_get() function returns the timezone offset.
